@@ -154,8 +154,6 @@ void setup() {
  
 Serial.begin(115200);
   servo.attach(servoPin);
-  servo.write(90); // Set initial position to 90 degrees
-  Serial.setDebugOutput(true);
   Serial.println();
   Serial.println("Camera Server");
   
